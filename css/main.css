@@ -464,7 +464,7 @@ nav a:hover {
   }
 
   .card, .card_mediana, .card_grande {
-    padding: 10px;
+    padding: 11px;
     margin: 15px;
 
     /* custom */
@@ -475,8 +475,13 @@ nav a:hover {
     font-size: 11px;
   }
 
+  #filtro {
+    margin-top: 0;
+    margin-bottom: 18px;
+  }
+
   #filtro li {
-    margin: 0 5px 20px 5px;
+    margin: 0 5px 2px 5px;
     font-size: 22px;
     padding: 5px 10px;
   }
@@ -487,8 +492,8 @@ nav a:hover {
   }
 
   .card p, .card_mediana p, .card_mediana li, .card_grande p, .card_grande li {
-
-    font-size: 14px;
+    line-height: 1.35;
+    font-size: 14.5px;
 
   }
 
